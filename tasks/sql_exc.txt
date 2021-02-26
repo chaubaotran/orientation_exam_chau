@@ -1,0 +1,3 @@
+SELECT name, developer FROM videogames WHERE genre = 'FPS' ORDER BY RATING DESC LIMIT 2;
+
+UPDATE videogames SET price = price - 200 WHERE releaseDate BETWEEN '1900-%-%' AND '1999-%-%';
